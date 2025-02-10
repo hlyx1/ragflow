@@ -7,88 +7,16 @@
             "status": "1",
             "llm": [
                 {
-                    "llm_name": "gpt-4o-mini",
+                    "llm_name": "deepseek-r1",
                     "tags": "LLM,CHAT,128K",
                     "max_tokens": 128000,
                     "model_type": "chat"
                 },
                 {
-                    "llm_name": "gpt-4o",
+                    "llm_name": "deepseek-v3",
                     "tags": "LLM,CHAT,128K",
                     "max_tokens": 128000,
                     "model_type": "chat"
-                },
-                {
-                    "llm_name": "gpt-3.5-turbo",
-                    "tags": "LLM,CHAT,4K",
-                    "max_tokens": 4096,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "gpt-3.5-turbo-16k-0613",
-                    "tags": "LLM,CHAT,16k",
-                    "max_tokens": 16385,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "text-embedding-ada-002",
-                    "tags": "TEXT EMBEDDING,8K",
-                    "max_tokens": 8191,
-                    "model_type": "embedding"
-                },
-                {
-                    "llm_name": "text-embedding-3-small",
-                    "tags": "TEXT EMBEDDING,8K",
-                    "max_tokens": 8191,
-                    "model_type": "embedding"
-                },
-                {
-                    "llm_name": "text-embedding-3-large",
-                    "tags": "TEXT EMBEDDING,8K",
-                    "max_tokens": 8191,
-                    "model_type": "embedding"
-                },
-                {
-                    "llm_name": "whisper-1",
-                    "tags": "SPEECH2TEXT",
-                    "max_tokens": 26214400,
-                    "model_type": "speech2text"
-                },
-                {
-                    "llm_name": "gpt-4",
-                    "tags": "LLM,CHAT,8K",
-                    "max_tokens": 8191,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "gpt-4-turbo",
-                    "tags": "LLM,CHAT,8K",
-                    "max_tokens": 8191,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "gpt-4-32k",
-                    "tags": "LLM,CHAT,32K",
-                    "max_tokens": 32768,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "gpt-4o-2024-08-06",
-                    "tags": "LLM,CHAT,IMAGE2TEXT",
-                    "max_tokens": 128000,
-                    "model_type": "image2text"
-                },
-                 {
-                    "llm_name": "gpt-4o-mini-2024-07-18",
-                    "tags": "LLM,CHAT,IMAGE2TEXT",
-                    "max_tokens": 128000,
-                    "model_type": "image2text"
-                },
-                {
-                    "llm_name": "tts-1",
-                    "tags": "TTS",
-                    "max_tokens": 2048,
-                    "model_type": "tts"
                 }
             ]
         },
