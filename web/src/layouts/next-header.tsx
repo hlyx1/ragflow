@@ -77,17 +77,9 @@ export function Header() {
         <img
           src={'/logo.svg'}
           alt="logo"
-          className="w-[100] h-[100] mr-[12]"
+          className="w-[230] h-[230] mr-[12]"
           onClick={handleLogoClick}
         />
-        <Button
-          variant="secondary"
-          className="bg-colors-background-inverse-standard"
-        >
-          <Github />
-          21.5k stars
-          <Star />
-        </Button>
       </div>
       <div className="flex gap-2 items-center">
         <Button
