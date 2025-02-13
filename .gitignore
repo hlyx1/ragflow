@@ -38,3 +38,6 @@ sdk/python/dist/
 sdk/python/ragflow_sdk.egg-info/
 huggingface.co/
 nltk_data/
+ragflow_ziyan.tar
+/node_modules
+/ragflow_images

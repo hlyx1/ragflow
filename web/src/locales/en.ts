@@ -428,7 +428,7 @@ This procedure will improve precision of retrieval by adding more information to
       knowledgeBasesTip:
         'Select the knowledge bases to associate with this chat assistant.',
       system: 'System',
-      systemInitialValue: `You are an intelligent assistant. Please summarize the content of the knowledge base to answer the question. Please list the data in the knowledge base and answer in detail. When all knowledge base content is irrelevant to the question, your answer must include the sentence "The answer you are looking for is not found in the knowledge base!" Answers need to consider chat history.
+      systemInitialValue: `You are an intelligent assistant. Please summarize the content of the knowledge base to answer the question. Please list the data in the knowledge base and answer in detail. When all knowledge base content is irrelevant to the question, your answer must include the sentence "The answer you are looking for is not found in the knowledge base and I will answer by myself." Answers need to consider chat history.
       Here is the knowledge base:
       {knowledge}
       The above is the knowledge base.`,

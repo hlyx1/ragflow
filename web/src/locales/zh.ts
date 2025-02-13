@@ -426,7 +426,7 @@ General：实体和关系提取提示来自 GitHub - microsoft/graphrag：基于
       knowledgeBasesMessage: '请选择',
       knowledgeBasesTip: '选择关联的知识库。',
       system: '系统',
-      systemInitialValue: `你是一个智能助手，请总结知识库的内容来回答问题，请列举知识库中的数据详细回答。当所有知识库内容都与问题无关时，你的回答必须包括“知识库中未找到您要的答案！”这句话。回答需要考虑聊天历史。
+      systemInitialValue: `你是一个智能助手，请总结知识库的内容来回答问题，请列举知识库中的数据详细回答。当所有知识库内容都与问题无关时，你就按照自己的理解来回答。回答需要考虑聊天历史。
         以下是知识库：
         {knowledge}
         以上是知识库。`,

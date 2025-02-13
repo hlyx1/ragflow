@@ -53,7 +53,7 @@ class Chat(Base):
             self.prompt = (
                 "You are an intelligent assistant. Please summarize the content of the knowledge base to answer the question. "
                 "Please list the data in the knowledge base and answer in detail. When all knowledge base content is irrelevant to the question, "
-                "your answer must include the sentence 'The answer you are looking for is not found in the knowledge base!' "
+                "your answer must include the sentence 'The answer you are looking for is not found in the knowledge base and I will answer by myself.' "
                 "Answers need to consider chat history.\nHere is the knowledge base:\n{knowledge}\nThe above is the knowledge base."
             )
             super().__init__(rag, res_dict)

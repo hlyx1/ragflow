@@ -49,7 +49,7 @@ export default {
       continue: 'Continuar',
       title: 'Pruebas asistentes inteligentes.',
       description:
-        'Tecnología RAG de primer nivel. Crea bases de conocimiento y asistentes inteligentes.',
+        '',
       review: 'Fiscalía General de la Nación',
     },
     header: {
