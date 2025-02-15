@@ -72,11 +72,12 @@ function Root({ children }: React.PropsWithChildren) {
 }
 
 const RootProvider = ({ children }: React.PropsWithChildren) => {
+
   useEffect(() => {
-    // Because the language is saved in the backend, a token is required to obtain the api. However, the login page cannot obtain the language through the getUserInfo api, so the language needs to be saved in localstorage.
-    const lng = storage.getLanguage();
-    if (lng) {
-      i18n.changeLanguage(lng);
+    // 新增强制设置中文逻辑
+    if (!storage.getLanguage()) {
+      storage.setLanguage('zh');
+      i18n.changeLanguage('zh');
     }
   }, []);
 

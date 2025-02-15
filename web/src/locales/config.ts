@@ -59,7 +59,7 @@ i18n
       'pt-BR',
     ],
     resources,
-    fallbackLng: 'en',
+    fallbackLng: 'zh',
     interpolation: {
       escapeValue: false,
     },
